@@ -1,17 +1,19 @@
 FROM python:3.10
 
-RUN mkdir -p /srv/{{PKG_NAME}}
+RUN mkdir -p /srv/stocks
 RUN mkdir -p /data
 RUN mkdir -p /report
 
 COPY data /data
-COPY src /srv/{{PKG_NAME}}
+COPY src /srv/stocks
 
 #####
 # Custom Section
-
+RUN pip install pandas matplotlib numpy
+RUN pip install cairosvg colorcet
+RUN pip install requests
 #####
 
 WORKDIR /srv
 ENTRYPOINT [ "python3" ]
-CMD [ "-m", "{{PKG_NAME}}"]
+CMD [ "-m", "stocks"]
