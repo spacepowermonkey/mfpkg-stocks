@@ -6,12 +6,19 @@ POWER = 8
 
 
 
-def per_symbol_stats(datum, norm_idx=0):
+def per_symbol_stats(index, datum, symbols, symbol_data, norm_idx=0):
     ### NORMED CLOSE
     # norm_idx is used to set the base point for norming to, 
     # eg, the correct base of an overwide window to "smooth" EMA transition when cut to window
-    base_val = datum["close"][norm_idx]
-    datum["nclose"] = datum["close"] / base_val
+    if index["symbols"][0] == "*":
+        symbol_set = symbols.keys()
+    else:
+        symbol_set = index["symbols"]
+    
+    norm = 1 / len(symbol_set)
+    datum["nclose"] = 0
+    for symbol in symbol_set:
+        datum["nclose"] += symbol_data[symbol] * norm
 
     nclose_array = datum["nclose"].to_numpy(copy=True)
     datum["nclose_EMA"] = tools.ema.spectrum(nclose_array, POWER).transpose().tolist()
@@ -27,8 +34,9 @@ def per_symbol_stats(datum, norm_idx=0):
     return
 
 
-def run(symbols, data):
-    for period in data:
-        for symbol in symbols:
-            per_symbol_stats( data[period][symbol] )
+def run(indexes, index_data, symbols, symbol_data):
+
+    for period in index_data:
+        for index in indexes:
+            per_symbol_stats( indexes[index], index_data[period][index], symbols[period], symbol_data[period] )
     return
