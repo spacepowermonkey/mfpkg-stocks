@@ -1,0 +1,10 @@
+title: "[SPM] Stock Report"
+description: >-
+  [SpacePowerMonkey](http://www.spacepowermonkey.com) provides this report tracking US stocks to the public free of charge.
+baseurl: "/mfpkg-stocks"
+url: "https://www.spacepowermonkey.com"
+
+author:
+  email: contact@spacepowermonkey.com
+
+remote_theme: spacepowermonkey/monkeyreport
