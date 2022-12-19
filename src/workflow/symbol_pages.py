@@ -3,7 +3,7 @@ import os
 
 
 def per_symbol_page(symbol, periods):
-    file_path = f"/report/symbols/{symbol['symbol']}"
+    file_path = f"/docs/symbols/{symbol['symbol']}"
     os.makedirs(file_path, exist_ok=True)
 
     page_text = "---\n"
@@ -27,7 +27,7 @@ def per_symbol_page(symbol, periods):
 
 
 def run(symbols, data):
-    os.makedirs("/report/symbols", exist_ok=True)
+    os.makedirs("/docs/symbols", exist_ok=True)
 
     periods = list(data.keys())
     periods.reverse()

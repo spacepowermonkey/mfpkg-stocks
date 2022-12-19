@@ -99,7 +99,7 @@ def _nclose_diff_heat_image(img_path, period, datum):
 
 
 def per_symbol_render(period, symbol, datum):
-    img_path = f"/report/symbols/{symbol['symbol']}/img"
+    img_path = f"/docs/symbols/{symbol['symbol']}/img"
     os.makedirs(img_path, exist_ok=True)
 
     _nclose_image(img_path, period, datum)
@@ -111,7 +111,7 @@ def per_symbol_render(period, symbol, datum):
 
 
 def run(symbols, data):
-    os.makedirs("/report/symbols", exist_ok=True)
+    os.makedirs("/docs/symbols", exist_ok=True)
 
     for period in data:
         for symbol in symbols:

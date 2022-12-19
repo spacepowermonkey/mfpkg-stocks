@@ -2,7 +2,7 @@ FROM python:3.10
 
 RUN mkdir -p /srv/stocks
 RUN mkdir -p /data
-RUN mkdir -p /report
+RUN mkdir -p /docs
 
 COPY data /data
 COPY src /srv/stocks

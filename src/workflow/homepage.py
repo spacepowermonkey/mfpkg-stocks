@@ -46,7 +46,7 @@ def run(symbols, data):
         page_text += "\n"
     page_text += "\n\n"
 
-    with open(f"/report/index.md", 'w') as outfile:
+    with open(f"/docs/index.md", 'w') as outfile:
         outfile.write(page_text)
 
     return
