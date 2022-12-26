@@ -98,8 +98,8 @@ def _nclose_diff_heat_image(img_path, period, datum):
     _save_image(fig, nclose_diff_heat_path)
 
 
-def per_symbol_render(period, symbol, datum):
-    img_path = f"/docs/symbols/{symbol['symbol']}/img"
+def per_index_render(period, index, datum):
+    img_path = f"/docs/indexes/{index['short']}/img"
     os.makedirs(img_path, exist_ok=True)
 
     _nclose_image(img_path, period, datum)
@@ -110,10 +110,10 @@ def per_symbol_render(period, symbol, datum):
     return
 
 
-def run(symbols, data):
-    os.makedirs("/docs/symbols", exist_ok=True)
+def run(indexes, index_data):
+    os.makedirs("/docs/indexes", exist_ok=True)
 
-    for period in data:
-        for symbol in symbols:
-            per_symbol_render( period, symbols[symbol], data[period][symbol] )
+    for period in index_data:
+        for index in indexes:
+            per_index_render( period, indexes[index], index_data[period][index])
     return
