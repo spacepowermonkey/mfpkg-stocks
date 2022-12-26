@@ -1,4 +1,5 @@
 {
     "name": "Full Stock Composite",
+    "short": "all_stocks",
     "symbols": ["*"]
 }
