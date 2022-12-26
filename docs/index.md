@@ -7,6 +7,13 @@ layout: page
 This report is automatically generated, summarizing market activity at various scales: 5yr, 1yr, 3mo, 1mo
 
 
+## Indexes
+
+Letter | | | | | 
+--- | --- | --- | --- | --- | ---
+a | [all_stocks](indexes/all_stocks/) |    |    |    |   
+
+
 ## Symbols
 
 Letter | | | | | 
