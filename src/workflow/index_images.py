@@ -34,7 +34,7 @@ def _nclose_image(img_path, period, datum):
     nclose_path = f"{img_path}/{period}-nclose"
     fig, ax = _initialize_image()
 
-    nclose_array = datum["nclose"].to_numpy()
+    nclose_array = datum["avg_nclose"].to_numpy()
     nclose_array = nclose_array.reshape((nclose_array.shape[0], 1))
     nclose_ema_array = numpy.array(datum["nclose_EMA"].tolist())
     nclose_full_array = numpy.concatenate([nclose_array, nclose_ema_array], axis=1).transpose()
@@ -52,7 +52,7 @@ def _nclose_heat_image(img_path, period, datum):
     nclose_heat_path = f"{img_path}/{period}-nclose-heat"
     fig, ax = _initialize_image()
 
-    nclose_array = datum["nclose"].to_numpy()
+    nclose_array = datum["avg_nclose"].to_numpy()
     nclose_array = nclose_array.reshape((nclose_array.shape[0], 1))
     nclose_ema_array = numpy.array(datum["nclose_EMA"].tolist())
     nclose_full_array = numpy.concatenate([nclose_array, nclose_ema_array], axis=1).transpose()

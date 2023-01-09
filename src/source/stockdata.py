@@ -25,4 +25,7 @@ def get_symbol(symbol, date_from=None, date_to=None, asc=True):
     response = requests.get(API_EOD_URL, params=params)
     data = response.json()["data"]
 
-    return pandas.DataFrame(data=data)
+    frame = pandas.DataFrame(data=data)
+    frame["date"] = pandas.to_datetime(frame["date"])
+
+    return frame
