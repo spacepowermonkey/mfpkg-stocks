@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2023-01-23T15:51:52.135600</dc:date>
+    <dc:date>2023-01-30T16:21:51.799953</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -267,7 +267,7 @@ L 782.496 474.737238
 L 785.664 474.374264 
 L 788.832 473.8152 
 L 788.832 473.8152 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 0 459 
@@ -508,7 +508,7 @@ L 782.496 478.880612
 L 785.664 476.801898 
 L 788.832 475.57662 
 L 788.832 475.57662 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
     <path d="M 0 459 
@@ -735,7 +735,7 @@ L 782.496 479.167923
 L 785.664 477.867493 
 L 788.832 476.83834 
 L 788.832 476.83834 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
     <path d="M 0 459 
@@ -925,7 +925,7 @@ L 779.328 479.259443
 L 782.496 479.09665 
 L 788.832 477.759509 
 L 788.832 477.759509 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
     <path d="M 0 459 
@@ -1083,7 +1083,7 @@ L 776.16 479.200822
 L 782.496 479.127449 
 L 788.832 478.38665 
 L 788.832 478.38665 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_6">
     <path d="M 0 459 
@@ -1186,7 +1186,7 @@ L 779.328 481.016493
 L 782.496 480.895956 
 L 788.832 480.363483 
 L 788.832 480.363483 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
     <path d="M 0 459 
@@ -1267,7 +1267,7 @@ L 769.824 484.020459
 L 782.496 483.632412 
 L 788.832 483.24575 
 L 788.832 483.24575 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_8">
     <path d="M 0 459 
@@ -1335,7 +1335,7 @@ L 725.472 486.362837
 L 734.976 485.971649 
 L 788.832 484.684413 
 L 788.832 484.684413 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
     <path d="M 0 459 
@@ -1394,12 +1394,12 @@ L 738.144 485.445865
 L 782.496 484.852468 
 L 788.832 484.702643 
 L 788.832 484.702643 
-" clip-path="url(#p61446946b7)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pdff377f9a2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p61446946b7">
+  <clipPath id="pdff377f9a2">
    <rect x="0" y="0" width="792" height="612"/>
   </clipPath>
  </defs>
